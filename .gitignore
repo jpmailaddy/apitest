@@ -1,0 +1,16 @@
+# build artifacts
+bin/
+*.exe
+
+# wordlists (large; bring your own)
+*.txt
+!builtin_*.txt
+
+# scan reports and local data
+*.json
+!go.sum
+
+# editor / OS noise
+.vscode/
+.idea/
+.DS_Store
