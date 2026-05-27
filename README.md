@@ -5,9 +5,7 @@ External API security posture scanner. Classifies an API endpoint
 endpoints, and surfaces OWASP API Top 10 misconfigurations — with replay
 curl commands ready for manual follow-up.
 
-Authorized testing only. Every scan requires a typed confirmation and a
-written reason, and is appended to a hash-chained audit log at
-`~/.apitest/scans.log`.
+Do not use against targets you do not have permission on.
 
 ## Install
 
